@@ -1,0 +1,12 @@
+[
+  {
+    "from": "^/private/?$",
+    "to": "https://nofi.fyi/?success=true",
+    "permanent": false
+  },
+  {
+    "from": "^/private/?(.*)$",
+    "to": "https://nofi.fyi/?success=true",
+    "permanent": false
+  }
+]
