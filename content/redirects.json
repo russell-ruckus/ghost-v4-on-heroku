@@ -8,5 +8,10 @@
     "from": "^/private/?(.*)$",
     "to": "https://nofi.fyi/?success=true",
     "permanent": false
-  }
+  },
+  {
+    "from": "^/members/\\?token=([a-zA-Z0-9]+)&action=subscribe$",
+    "to": "https://nofi.fyi/?success=true",
+    "permanent": false
+  }  
 ]
